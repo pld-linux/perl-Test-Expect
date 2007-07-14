@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests		# do not perform "make test"
+%bcond_with	tests		# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Test
@@ -9,7 +9,7 @@ Summary:	Test::Expect - Automated driving and testing of terminal-based programs
 #Summary(pl.UTF-8):	
 Name:		perl-Test-Expect
 Version:	0.30
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
