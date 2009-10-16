@@ -8,13 +8,13 @@
 Summary:	Test::Expect - Automated driving and testing of terminal-based programs
 Summary(pl.UTF-8):	Test::Expect - Automatyczne sterowanie i testowanie programów terminalowych
 Name:		perl-Test-Expect
-Version:	0.30
-Release:	2
+Version:	0.31
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	b22cb4575d910bb2d36e506a958da300
+# Source0-md5:	2d30b1be2e5e390a9aa698858607e428
 URL:		http://search.cpan.org/dist/Test-Expect/
 BuildRequires:	perl-Module-Build
 BuildRequires:	perl-devel >= 1:5.8.0
