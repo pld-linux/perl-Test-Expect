@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Test
 %define	pnam	Expect
 Summary:	Test::Expect - Automated driving and testing of terminal-based programs
